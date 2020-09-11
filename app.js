@@ -2,7 +2,7 @@ var after = document.querySelector('.after');
 var before = document.querySelector('.before');
 var audioCounter = 0;
 var audio = document.querySelector('.audio');
-var boolean;
+var boolean = true;
 var playPause = document.querySelector('.playPause');
 var audioTitle = document.querySelector('.audio-title');
 var liveRadioNames = [];
