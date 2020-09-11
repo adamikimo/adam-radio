@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container-content{
+    height: 160vh;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.logo-header-radio{
+    position: relative;
+    left:25%;
+}
+.logo-title{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.radio img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform: translateX(95px) translateY(50px);
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.radio {
+    background: white;
+    height: 592px;
+}
+.audio-title{
+    margin: 50px;
+    margin-left: 165px;
+    color: white;
+}
+input[type="range" i]{
+    position: relative;
+    transform: translateX(50px) translateY(100px);
+    width: 400px;
+}
+.volume , .speed{
+    position: relative;
+    transform: translateX(215px) translateY(115px);
+    margin-bottom: 30px;
+}
+.speed{
+    transform: translateX(220px) translateY(115px);
+}
+.linearGrdiantOne,.linearGrdiantTwo,.linearGrdiantThree,.linearGrdiantFour{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.linearGrdiantOne{
+    transform: translateY(230px) translateX(-93px);
+    background: linear-gradient(to left,rgb(255, 0, 0),rgb(255, 94, 0));
+}
+.linearGrdiantFour{
+    transform: translateY(177px) translateX(150px);
+    background: linear-gradient(to left,rgb(24, 23, 23),rgb(85, 83, 83));
+}
+.linearGrdiantThree{
+    transform: translateY(177px) translateX(150px);
+    background: linear-gradient(to left,rgb(28, 255, 255),rgb(251, 85, 113));
+}
+.linearGrdiantTwo{
+    transform: translateY(177px) translateX(150px);
+    background: linear-gradient(to left,rgb(253, 253, 99),rgb(16, 250, 16));
+}
